@@ -19,7 +19,7 @@ Integration with:
 1. accounting software
 2. payroll processing
 3. and compliance tracking
-4. 
+    
 further enhances the efficiency and accuracy of financial management processes, ensuring regulatory compliance and financial stability.
 
 Stacks used:
