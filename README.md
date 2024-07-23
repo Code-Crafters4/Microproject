@@ -14,10 +14,7 @@ BUISNESS
 
 For businesses, our app provides a suite of features aimed at streamlining financial operations and enhancing productivity.
 From multi-account management and expense tracking to invoicing, budgeting, and financial reporting, businesses can efficiently manage their finances, gain valuable insights, and make informed decisions to drive growth and profitability. 
-Integration with:
--> accounting software
--> payroll processing
--> and compliance tracking 
+Integration with accounting software, payroll processing and compliance tracking 
 further enhances the efficiency and accuracy of financial management processes, ensuring regulatory compliance and financial stability.
 
 Stacks used:
