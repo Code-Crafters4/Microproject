@@ -1,0 +1,13 @@
+document.getElementById('businessLoginBtn').addEventListener('click', function() {
+    // Redirect or handle business login action
+    alert('Redirecting to business login page');
+    // Replace with actual URL
+    // window.location.href = 'business-login.html';
+});
+
+document.getElementById('individualLoginBtn').addEventListener('click', function() {
+    // Redirect or handle individual login action
+    alert('Redirecting to individual login page');
+    // Replace with actual URL
+    // window.location.href = 'individual-login.html';
+});
