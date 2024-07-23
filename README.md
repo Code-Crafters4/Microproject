@@ -10,7 +10,8 @@ For individuals, our app offers a personalized financial management solution to 
 4. Investment tracking
    
 ![expense tracker](https://github.com/user-attachments/assets/33fff096-47c1-4eb0-89b1-1dea13d3abd2)
-   
+![WhatsApp Image 2024-07-24 at 00 28 20](https://github.com/user-attachments/assets/4143b8b9-bf1c-49e9-8fd6-96b153cd00cd)
+
 Individuals can easily monitor their spending, save money, and invest wisely to achieve their short-term and long-term financial objectives. Whether it's managing day-to-day expenses, paying off debts, our app provides the tools and insights needed to make informed financial decisions and take control of one's financial future.
 
 BUISNESS
