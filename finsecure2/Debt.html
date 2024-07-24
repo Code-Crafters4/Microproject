@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debt Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Debt Manager</h1>
+        <form id="debtForm">
+            <div class="input-group">
+                <label for="debtType">Debt Type</label>
+                <input type="text" id="debtType" name="debtType" placeholder="Enter debt type (e.g., Credit Card, Loan)">
+            </div>
+            <div class="input-group">
+                <label for="creditorName">Name of Creditor</label>
+                <input type="text" id="creditorName" name="creditorName" placeholder="Enter creditor's name">
+            </div>
+            <div class="input-group">
+                <label for="originalAmount">Original Amount ($)</label>
+                <input type="number" id="originalAmount" name="originalAmount" placeholder="Enter original amount" step="0.01">
+            </div>
+            <div class="input-group">
+                <label for="currentBalance">Current Balance ($)</label>
+                <input type="number" id="currentBalance" name="currentBalance" placeholder="Enter current balance" step="0.01">
+            </div>
+            <div class="input-group">
+                <label for="interestRate">Interest Rate (%)</label>
+                <input type="number" id="interestRate" name="interestRate" placeholder="Enter interest rate" step="0.01">
+            </div>
+            <div class="input-group">
+                <label for="minimumPayment">Minimum Payment ($)</label>
+                <input type="number" id="minimumPayment" name="minimumPayment" placeholder="Enter minimum payment" step="0.01">
+            </div>
+            <div class="input-group">
+                <label for="dueDate">Due Date</label>
+                <input type="date" id="dueDate" name="dueDate">
+            </div>
+            <button type="submit">Save Debt Information</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

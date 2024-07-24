@@ -1,0 +1,19 @@
+document.getElementById('debtForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const debtType = document.getElementById('debtType').value;
+    const creditorName = document.getElementById('creditorName').value;
+    const originalAmount = document.getElementById('originalAmount').value;
+    const currentBalance = document.getElementById('currentBalance').value;
+    const interestRate = document.getElementById('interestRate').value;
+    const minimumPayment = document.getElementById('minimumPayment').value;
+    const dueDate = document.getElementById('dueDate').value;
+
+    // Basic validation (optional)
+    if (!debtType || !creditorName || !originalAmount || !currentBalance || !interestRate || !minimumPayment || !dueDate) {
+        document.getElementById('message').textContent = 'Please fill out all fields.';
+        return;
+    }
+
+    document.getElementById('message').textContent = 'Debt information saved successfully!';
+});

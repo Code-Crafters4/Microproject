@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Investment Tracker</h1>
+        <form id="investmentForm">
+            <div class="input-group">
+                <label for="investmentType">Investment Type</label>
+                <input type="text" id="investmentType" name="investmentType" placeholder="Enter investment type (e.g., Stocks, Bonds)">
+            </div>
+            <div class="input-group">
+                <label for="numShares">Number of Shares</label>
+                <input type="number" id="numShares" name="numShares" placeholder="Enter number of shares">
+            </div>
+            <div class="input-group">
+                <label for="purchasePrice">Purchase Price per Share ($)</label>
+                <input type="number" id="purchasePrice" name="purchasePrice" placeholder="Enter purchase price per share" step="0.01">
+            </div>
+            <div class="input-group">
+                <label for="currentPrice">Current Price per Share ($)</label>
+                <input type="number" id="currentPrice" name="currentPrice" placeholder="Enter current price per share" step="0.01">
+            </div>
+            <div class="input-group">
+                <label for="gainLoss">Gain/Loss ($)</label>
+                <input type="text" id="gainLoss" name="gainLoss" readonly>
+            </div>
+            <button type="submit">Calculate Gain/Loss</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
